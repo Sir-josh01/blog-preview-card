@@ -47,6 +47,11 @@ body {
 
 .write-up .time-frame {
   margin: 8px 0;
+  color: grey;
+  cursor: pointer;
+}
+.write-up .time-frame:hover {
+  color: black;
 }
 
 .write-up .topic-hand {
@@ -54,13 +59,14 @@ body {
 }
 
 .write-up .topic {
-  color: rgb(255, 193, 6);
   font-size: 28px;
   font-weight: bold;
+  cursor: pointer;
 }
 
-/* 
-put the hand font before submission */
+.write-up .topic:hover {
+  color: rgb(255, 193, 6);
+}
 
 .write-up .explanation {
   width: 400px;
@@ -73,12 +79,12 @@ put the hand font before submission */
 .write-up .teacher {
   display: flex;
   align-items: center;
-
 }
 
 .profile-pic {
   width: 40px;
   margin-right: 12px;
+  cursor: pointer;
 }
 
 .avatar {
@@ -87,4 +93,9 @@ put the hand font before submission */
 
 .profile-name {
   font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-name:hover {
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
 }
