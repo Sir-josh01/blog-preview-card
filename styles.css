@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'figtree', sans-serif;
+}
+
+.wrapper {
+  border: 1px solid;
+  padding: 25px;
+  margin-bottom: 20px;
+  width: 450px;
+  background-color: white;
+  box-shadow: 4px 5px 0;
+  border-radius: 13px;
+}
+
+.img-box {
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.img-logo {
+  width: 100%;
+}
+
+.write-up .title {
+  background-color: rgb(255, 193, 6);
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 80px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.write-up .time-frame {
+  margin: 8px 0;
+}
+
+.write-up .topic-hand {
+  margin: 10px 0;
+}
+
+.write-up .topic {
+  color: rgb(255, 193, 6);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* 
+put the hand font before submission */
+
+.write-up .explanation {
+  width: 400px;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px 0;
+  color: hsl(0, 0%, 42%);
+}
+
+.write-up .teacher {
+  display: flex;
+  align-items: center;
+
+}
+
+.profile-pic {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.profile-name {
+  font-weight: bold;
+}
